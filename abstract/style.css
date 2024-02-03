@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Noto+Sans:wght@400;500;600;700;800&family=Roboto:ital,wght@0,400;1,500;1,700&display=swap');
+:root{
+    --secondary-colour: #4c5fd5;
+    --accent: #dadbf1;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.top-container{
+    height: 4.75rem;
+    font-size:1.75rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.submit-request{
+    background-color: black;
+    border: 2px solid white;
+}
+button{
+    color: white;
+    font-size: 1.3rem;
+    border-radius:.7rem ;
+    padding: .7rem;
+}
+
+.sign-in{
+    background-color: var(--secondary-colour);
+    border:none;
+    padding:.8rem 2rem;
+}
+
+
+/***Hero section****/
+
+.search-bar > *{
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 1.2rem;
+}
+
+.search-bar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 100%;
+    padding: 1.2rem;
+    margin-top: 1rem;
+}
+
+.hero--large{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8rem 0;
+    background-color: var(--accent);
+}
+
+.hero--large p{
+    margin: 0;
+    margin-left: 2rem;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+
+/******Body----main section*****/
+
+
+.body{
+    margin-top: 8rem;
+    padding-left: 10rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+.list img{
+    height: 6rem;
+    width: 6rem;
+}
+.list{
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.25rem;
+}
+.info p, .info h2{
+    margin: 1rem 0;
+}
+
+footer{
+    padding-left: 10rem;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 30rem;
+}
+footer p{
+    margin: 0;
+    font-size: 1rem;
+
+}
+.empty{
+    height: 20rem;
+}
+
